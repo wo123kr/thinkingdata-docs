@@ -14,9 +14,22 @@ export default function DocItemLayoutWrapper(props) {
 
   return (
     <>
-      <div style={{ position: 'relative' }}>
+      <div style={{ 
+        position: 'relative',
+        maxWidth: '100%',
+        margin: '0 auto'
+      }}>
         <DocItemLayout {...props} />
-        <AskButton onAskAssistant={handleAskAssistant} />
+        <div style={{
+          position: 'absolute',
+          top: '10px',
+          right: 'calc(0% + 20px)',
+          zIndex: 100,
+          maxWidth: 'calc(100% - 300px)', // 사이드바와 TOC 공간 제외
+          width: 'fit-content'
+        }}>
+          <AskButton onAskAssistant={handleAskAssistant} />
+        </div>
       </div>
       <AiAssistantPanel
         isOpen={aiPanelOpen}

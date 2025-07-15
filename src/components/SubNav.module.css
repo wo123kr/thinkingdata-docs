@@ -22,6 +22,7 @@
   border-radius: 6px;
   transition: all 0.2s ease;
   position: relative;
+  border: 1px solid transparent;
 }
 
 .tab:hover {
@@ -35,18 +36,9 @@
   color: var(--ifm-color-primary);
   background: var(--ifm-color-primary-lightest);
   font-weight: 600;
-  border-bottom: 2px solid var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary-light);
+  border-bottom: 3px solid var(--ifm-color-primary);
   border-radius: 6px 6px 0 0;
-}
-
-.tab.active::after {
-  content: '';
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: var(--ifm-color-primary);
 }
 
 /* 모바일 대응 */
