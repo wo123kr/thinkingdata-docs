@@ -4,7 +4,7 @@ import styles from './MainHeader.module.css';
 import AiButton from './AiButton';
 import Fuse from 'fuse.js';
 import { docsIndex } from '../utils/searchIndex';
-import AiAskModal from './AiAskModal';
+import AiAssistantPanel from './AiAssistantPanel';
 
 function highlightText(text, query) {
   if (!query) return text;
@@ -20,8 +20,8 @@ export default function MainHeader() {
   const [results, setResults] = useState([]);
   const [showDropdown, setShowDropdown] = useState(false);
   const [activeIdx, setActiveIdx] = useState(-1); // 키보드 네비게이션용
-  const [aiModalOpen, setAiModalOpen] = useState(false);
-  const [aiModalQuery, setAiModalQuery] = useState('');
+  const [aiPanelOpen, setAiPanelOpen] = useState(false);
+  const [aiPanelQuery, setAiPanelQuery] = useState('');
   const inputRef = useRef();
   const resultsRef = useRef([]);
 
@@ -75,9 +75,14 @@ export default function MainHeader() {
   };
 
   const handleAIAsk = () => {
-    setAiModalQuery(query);
-    setAiModalOpen(true);
+    setAiPanelQuery(query);
+    setAiPanelOpen(true);
     setShowDropdown(false);
+  };
+
+  const handleAiButtonClick = () => {
+    setAiPanelQuery('');
+    setAiPanelOpen(true);
   };
 
   const handleResultClick = (path) => {
@@ -149,7 +154,9 @@ export default function MainHeader() {
               ))}
             </div>
           )}
-          <AiButton />
+          <div onClick={handleAiButtonClick}>
+            <AiButton />
+          </div>
         </div>
         <nav className={styles.nav}>
           <button onClick={toggleColorMode} className={styles.themeToggle}>
@@ -158,7 +165,11 @@ export default function MainHeader() {
           <a href="https://github.com/wo123kr/thinkingdata-docs" target="_blank" rel="noopener noreferrer">GitHub</a>
         </nav>
       </header>
-      <AiAskModal open={aiModalOpen} onClose={()=>setAiModalOpen(false)} initialQuery={aiModalQuery} />
+      <AiAssistantPanel 
+        isOpen={aiPanelOpen} 
+        onClose={() => setAiPanelOpen(false)} 
+        initialQuery={aiPanelQuery} 
+      />
     </>
   );
 } 
