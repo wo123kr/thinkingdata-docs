@@ -1,0 +1,27 @@
+{
+  "id": "guides/installation",
+  "title": "설치 가이드",
+  "description": "ThinkingData SDK를 다양한 환경에 설치하는 방법을 안내합니다.",
+  "source": "@site/docs/guides/installation.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/installation",
+  "permalink": "/docs/guides/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/guides/installation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API 참조",
+    "permalink": "/docs/api/reference"
+  },
+  "next": {
+    "title": "설정 가이드",
+    "permalink": "/docs/guides/configuration"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "ThinkingData 문서에 오신 것을 환영합니다",
+  "description": "ThinkingData는 AI 기반 데이터 분석 플랫폼으로, 복잡한 데이터를 간단하고 직관적으로 분석할 수 있도록 도와줍니다.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "시작하기",
+    "permalink": "/docs/getting-started"
+  }
+}

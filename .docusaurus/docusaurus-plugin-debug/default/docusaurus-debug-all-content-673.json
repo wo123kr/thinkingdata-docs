@@ -1,0 +1,220 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs",
+          "editUrlLocalized": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/i18n/ko/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/jegaljin-u/workspace/thinkingdata-docs/sidebars.js",
+          "contentPath": "/Users/jegaljin-u/workspace/thinkingdata-docs/docs",
+          "contentPathLocalized": "/Users/jegaljin-u/workspace/thinkingdata-docs/i18n/ko/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "api/reference",
+              "title": "API 참조",
+              "description": "ThinkingData REST API를 사용하여 데이터를 전송하고 조회할 수 있습니다.",
+              "source": "@site/docs/api/reference.md",
+              "sourceDirName": "api",
+              "slug": "/api/reference",
+              "permalink": "/docs/api/reference",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/api/reference.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "시작하기",
+                "permalink": "/docs/getting-started"
+              },
+              "next": {
+                "title": "설치 가이드",
+                "permalink": "/docs/guides/installation"
+              }
+            },
+            {
+              "id": "getting-started",
+              "title": "시작하기",
+              "description": "ThinkingData 플랫폼을 사용하기 위한 기본 설정과 첫 번째 데이터 전송을 진행해보겠습니다.",
+              "source": "@site/docs/getting-started.md",
+              "sourceDirName": ".",
+              "slug": "/getting-started",
+              "permalink": "/docs/getting-started",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/getting-started.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ThinkingData 문서에 오신 것을 환영합니다",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "API 참조",
+                "permalink": "/docs/api/reference"
+              }
+            },
+            {
+              "id": "guides/configuration",
+              "title": "설정 가이드",
+              "description": "ThinkingData SDK의 고급 설정 옵션과 최적화 방법을 안내합니다.",
+              "source": "@site/docs/guides/configuration.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/configuration",
+              "permalink": "/docs/guides/configuration",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/guides/configuration.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "설치 가이드",
+                "permalink": "/docs/guides/installation"
+              }
+            },
+            {
+              "id": "guides/installation",
+              "title": "설치 가이드",
+              "description": "ThinkingData SDK를 다양한 환경에 설치하는 방법을 안내합니다.",
+              "source": "@site/docs/guides/installation.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/installation",
+              "permalink": "/docs/guides/installation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/guides/installation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "API 참조",
+                "permalink": "/docs/api/reference"
+              },
+              "next": {
+                "title": "설정 가이드",
+                "permalink": "/docs/guides/configuration"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "ThinkingData 문서에 오신 것을 환영합니다",
+              "description": "ThinkingData는 AI 기반 데이터 분석 플랫폼으로, 복잡한 데이터를 간단하고 직관적으로 분석할 수 있도록 도와줍니다.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "시작하기",
+                "permalink": "/docs/getting-started"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "시작하기",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "API 참조",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api/reference"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "가이드",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "guides/installation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/configuration"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

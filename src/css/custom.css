@@ -1,0 +1,261 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-focused websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* GitBook 스타일 변수 */
+  --gitbook-bg: #ffffff;
+  --gitbook-text: #2c3e50;
+  --gitbook-sidebar-bg: #f8f9fa;
+  --gitbook-sidebar-text: #5a6c7d;
+  --gitbook-sidebar-active: #2563eb;
+  --gitbook-border: #e1e5e9;
+  --gitbook-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --gitbook-radius: 6px;
+  --gitbook-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #dbeafe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  
+  /* 다크모드 GitBook 스타일 변수 */
+  --gitbook-bg: #1a1a1a;
+  --gitbook-text: #e1e5e9;
+  --gitbook-sidebar-bg: #2d3748;
+  --gitbook-sidebar-text: #a0aec0;
+  --gitbook-sidebar-active: #60a5fa;
+  --gitbook-border: #4a5568;
+  --gitbook-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* 기본 폰트 설정 */
+html {
+  font-family: var(--gitbook-font);
+}
+
+/* 사이드바 스타일링 */
+.theme-doc-sidebar-container {
+  background-color: var(--gitbook-sidebar-bg);
+  border-right: 1px solid var(--gitbook-border);
+}
+
+.theme-doc-sidebar-item-category-level-1 > .theme-doc-sidebar-item-category > .theme-doc-sidebar-item-category-label {
+  color: var(--gitbook-text);
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.theme-doc-sidebar-item-link-level-1 > .theme-doc-sidebar-item-link > .theme-doc-sidebar-item-link-label {
+  color: var(--gitbook-sidebar-text);
+  font-size: 0.875rem;
+  padding: 0.5rem 0;
+}
+
+.theme-doc-sidebar-item-link-level-1.theme-doc-sidebar-item-link--active > .theme-doc-sidebar-item-link > .theme-doc-sidebar-item-link-label {
+  color: var(--gitbook-sidebar-active);
+  font-weight: 500;
+}
+
+/* 네비게이션 바 스타일링 */
+.navbar {
+  background-color: var(--gitbook-bg);
+  border-bottom: 1px solid var(--gitbook-border);
+  box-shadow: var(--gitbook-shadow);
+}
+
+.navbar__title {
+  font-weight: 600;
+  color: var(--gitbook-text);
+}
+
+/* 메인 컨텐츠 영역 */
+.main-wrapper {
+  background-color: var(--gitbook-bg);
+}
+
+.theme-doc-markdown {
+  color: var(--gitbook-text);
+  line-height: 1.7;
+}
+
+/* 헤더 스타일링 */
+.theme-doc-markdown h1,
+.theme-doc-markdown h2,
+.theme-doc-markdown h3,
+.theme-doc-markdown h4,
+.theme-doc-markdown h5,
+.theme-doc-markdown h6 {
+  color: var(--gitbook-text);
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.theme-doc-markdown h1 {
+  font-size: 2.25rem;
+  border-bottom: 2px solid var(--gitbook-border);
+  padding-bottom: 0.5rem;
+}
+
+.theme-doc-markdown h2 {
+  font-size: 1.875rem;
+  border-bottom: 1px solid var(--gitbook-border);
+  padding-bottom: 0.25rem;
+}
+
+/* 코드블럭 스타일링 */
+.theme-code-block {
+  border-radius: var(--gitbook-radius);
+  border: 1px solid var(--gitbook-border);
+  box-shadow: var(--gitbook-shadow);
+}
+
+.theme-code-block-highlighted-line {
+  background-color: rgba(37, 99, 235, 0.1);
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+/* 인라인 코드 */
+.theme-doc-markdown code {
+  background-color: rgba(37, 99, 235, 0.1);
+  color: var(--ifm-color-primary);
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+}
+
+/* 링크 스타일링 */
+.theme-doc-markdown a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.theme-doc-markdown a:hover {
+  border-bottom-color: var(--ifm-color-primary);
+}
+
+/* 테이블 스타일링 */
+.theme-doc-markdown table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  border-radius: var(--gitbook-radius);
+  overflow: hidden;
+  box-shadow: var(--gitbook-shadow);
+}
+
+.theme-doc-markdown table th,
+.theme-doc-markdown table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--gitbook-border);
+}
+
+.theme-doc-markdown table th {
+  background-color: var(--gitbook-sidebar-bg);
+  font-weight: 600;
+  color: var(--gitbook-text);
+}
+
+.theme-doc-markdown table tr:hover {
+  background-color: rgba(37, 99, 235, 0.05);
+}
+
+/* 블록쿼트 스타일링 */
+.theme-doc-markdown blockquote {
+  border-left: 4px solid var(--ifm-color-primary);
+  background-color: rgba(37, 99, 235, 0.05);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 var(--gitbook-radius) var(--gitbook-radius) 0;
+}
+
+/* 리스트 스타일링 */
+.theme-doc-markdown ul,
+.theme-doc-markdown ol {
+  padding-left: 1.5rem;
+}
+
+.theme-doc-markdown li {
+  margin: 0.5rem 0;
+}
+
+/* API 카드 스타일링 */
+.api-card {
+  background-color: var(--gitbook-bg);
+  border: 1px solid var(--gitbook-border);
+  border-radius: var(--gitbook-radius);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--gitbook-shadow);
+}
+
+.api-method {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.api-method.get {
+  background-color: #10b981;
+  color: white;
+}
+
+.api-method.post {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.api-method.put {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.api-method.delete {
+  background-color: #ef4444;
+  color: white;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 996px) {
+  .theme-doc-markdown h1 {
+    font-size: 1.875rem;
+  }
+  
+  .theme-doc-markdown h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* 다크모드 전환 애니메이션 */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+} 

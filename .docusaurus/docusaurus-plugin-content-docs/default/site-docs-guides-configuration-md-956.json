@@ -1,0 +1,23 @@
+{
+  "id": "guides/configuration",
+  "title": "설정 가이드",
+  "description": "ThinkingData SDK의 고급 설정 옵션과 최적화 방법을 안내합니다.",
+  "source": "@site/docs/guides/configuration.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/configuration",
+  "permalink": "/docs/guides/configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/guides/configuration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "설치 가이드",
+    "permalink": "/docs/guides/installation"
+  }
+}

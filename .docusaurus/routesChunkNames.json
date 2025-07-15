@@ -1,0 +1,78 @@
+{
+  "/__docusaurus/debug-08d": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugff-5-d73"
+    }
+  },
+  "/__docusaurus/debug/config-c21": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugff-5-d73"
+    }
+  },
+  "/__docusaurus/debug/content-42f": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugff-5-d73"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-8d6": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugff-5-d73"
+    }
+  },
+  "/__docusaurus/debug/metadata-04e": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugff-5-d73"
+    }
+  },
+  "/__docusaurus/debug/registry-a17": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugff-5-d73"
+    }
+  },
+  "/__docusaurus/debug/routes-18e": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugff-5-d73"
+    }
+  },
+  "/docs-d76": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docs-2-db-3d2"
+    }
+  },
+  "/docs-703": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
+  },
+  "/docs-17b": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/api/reference-992": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-reference-47-b-47e"
+  },
+  "/docs/getting-started-a24": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-startedd-58-f94"
+  },
+  "/docs/guides/configuration-607": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-guides-configuration-956-c8e"
+  },
+  "/docs/guides/installation-6c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-guides-installation-242-e15"
+  },
+  "/docs/intro-aed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  }
+}

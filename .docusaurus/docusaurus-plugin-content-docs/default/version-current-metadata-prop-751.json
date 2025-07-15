@@ -1,0 +1,105 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "시작하기",
+        "items": [
+          {
+            "type": "link",
+            "label": "ThinkingData 문서에 오신 것을 환영합니다",
+            "href": "/docs/intro",
+            "docId": "intro",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "시작하기",
+            "href": "/docs/getting-started",
+            "docId": "getting-started",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "API 참조",
+        "items": [
+          {
+            "type": "link",
+            "label": "API 참조",
+            "href": "/docs/api/reference",
+            "docId": "api/reference",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "가이드",
+        "items": [
+          {
+            "type": "link",
+            "label": "설치 가이드",
+            "href": "/docs/guides/installation",
+            "docId": "guides/installation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "설정 가이드",
+            "href": "/docs/guides/configuration",
+            "docId": "guides/configuration",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "api/reference": {
+      "id": "api/reference",
+      "title": "API 참조",
+      "description": "ThinkingData REST API를 사용하여 데이터를 전송하고 조회할 수 있습니다.",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started": {
+      "id": "getting-started",
+      "title": "시작하기",
+      "description": "ThinkingData 플랫폼을 사용하기 위한 기본 설정과 첫 번째 데이터 전송을 진행해보겠습니다.",
+      "sidebar": "tutorialSidebar"
+    },
+    "guides/configuration": {
+      "id": "guides/configuration",
+      "title": "설정 가이드",
+      "description": "ThinkingData SDK의 고급 설정 옵션과 최적화 방법을 안내합니다.",
+      "sidebar": "tutorialSidebar"
+    },
+    "guides/installation": {
+      "id": "guides/installation",
+      "title": "설치 가이드",
+      "description": "ThinkingData SDK를 다양한 환경에 설치하는 방법을 안내합니다.",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "ThinkingData 문서에 오신 것을 환영합니다",
+      "description": "ThinkingData는 AI 기반 데이터 분석 플랫폼으로, 복잡한 데이터를 간단하고 직관적으로 분석할 수 있도록 도와줍니다.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}
