@@ -1,4 +1,5 @@
 import React from 'react';
+import DefaultNavbar from '@theme-original/Navbar';
 import AnnouncementBanner from '../../components/AnnouncementBanner';
 import MainHeader from '../../components/MainHeader';
 import SubNav from '../../components/SubNav';
@@ -10,6 +11,7 @@ export default function Navbar(props) {
       <AnnouncementBanner />
       <MainHeader />
       <SubNav />
+      <DefaultNavbar {...props} />
       <CookieConsent />
     </>
   );
