@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# ThinkingData 문서에 오신 것을 환영합니다
+# ThinkingData 문서에 오신 것을 환영합니다ㅇㅇㅇㅇ
 
 ThinkingData는 AI 기반 데이터 분석 플랫폼으로, 복잡한 데이터를 간단하고 직관적으로 분석할 수 있도록 도와줍니다.
 
