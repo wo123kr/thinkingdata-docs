@@ -1,17 +1,28 @@
 import React from 'react';
+import { HiOutlineDocumentText, HiOutlineAcademicCap } from 'react-icons/hi2';
 import styles from './SubNav.module.css';
 
 const tabs = [
-  { label: '문서', href: '/docs/intro' },
-  { label: '가이드', href: '/docs/guides/installation' },
-  { label: '헬프센터', href: '#' },
+  { 
+    label: '문서', 
+    href: '/docs/intro',
+    icon: <HiOutlineDocumentText size={18} />
+  },
+  { 
+    label: '가이드', 
+    href: '/docs/guides/installation',
+    icon: <HiOutlineAcademicCap size={18} />
+  },
 ];
 
 export default function SubNav() {
   return (
     <nav className={styles.subnav}>
       {tabs.map(tab => (
-        <a key={tab.label} href={tab.href} className={styles.tab}>{tab.label}</a>
+        <a key={tab.label} href={tab.href} className={styles.tab}>
+          {tab.icon}
+          <span>{tab.label}</span>
+        </a>
       ))}
     </nav>
   );

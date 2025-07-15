@@ -5,7 +5,21 @@
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featureIcon {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-lightest);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.featureIcon:hover {
+  transform: scale(1.1);
+  color: var(--ifm-color-primary-dark);
+  background: var(--ifm-color-primary-lighter);
 } 

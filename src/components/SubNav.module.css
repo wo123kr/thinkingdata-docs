@@ -9,6 +9,9 @@
   z-index: 1000;
 }
 .tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   color: var(--ifm-navbar-link-color);
   font-weight: 500;
   font-size: 1rem;
@@ -20,4 +23,7 @@
 .tab:hover, .tab.active {
   color: var(--ifm-color-primary);
   border-bottom: 2px solid var(--ifm-color-primary);
+}
+.tab span {
+  line-height: 1;
 } 

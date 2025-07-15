@@ -11,14 +11,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://wo123kr.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/thinkingdata-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'thinkingdata', // Usually your GitHub org/user name.
+  organizationName: 'wo123kr', // Usually your GitHub org/user name.
   projectName: 'thinkingdata-docs', // Usually your repo name.
 
   onBrokenLinks: 'ignore',
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/thinkingdata/thinkingdata-docs/tree/main/',
+            'https://github.com/wo123kr/thinkingdata-docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/thinkingdata/thinkingdata-docs/tree/main/',
+            'https://github.com/wo123kr/thinkingdata-docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -77,7 +77,7 @@ const config = {
             label: '문서',
           },
           {
-            href: 'https://github.com/thinkingdata/thinkingdata-docs',
+            href: 'https://github.com/wo123kr/thinkingdata-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -100,7 +100,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/thinkingdata/thinkingdata-docs',
+                href: 'https://github.com/wo123kr/thinkingdata-docs',
               },
             ],
           },

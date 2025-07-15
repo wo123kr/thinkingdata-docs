@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import { HiOutlineRocketLaunch } from 'react-icons/hi2';
 
 import styles from './index.module.css';
 
@@ -18,6 +19,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
+            <HiOutlineRocketLaunch size={20} style={{marginRight: '8px'}} />
             시작하기 - 5분 ⏱️
           </Link>
         </div>
