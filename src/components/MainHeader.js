@@ -165,7 +165,7 @@ export default function MainHeader() {
       <header className={styles.header}>
         <div className={styles.logo}>
           <img 
-            src={useBaseUrl('/img/thinkingdata-logo.svg')} 
+            src={useBaseUrl(colorMode === 'dark' ? '/img/thinkingdata-logo-dark.svg' : '/img/thinkingdata-logo-light.svg')} 
             alt="ThinkingData" 
             style={{ height: '32px', width: 'auto' }}
           />
