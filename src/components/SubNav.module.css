@@ -1,29 +1,65 @@
 .subnav {
   display: flex;
   align-items: center;
-  gap: 24px;
-  background: var(--ifm-color-emphasis-100);
+  background: var(--ifm-navbar-background-color);
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
   padding: 0 32px;
-  height: 44px;
-  z-index: 1000;
+  height: 48px;
+  gap: 8px;
 }
+
 .tab {
   display: flex;
   align-items: center;
-  gap: 6px;
-  color: var(--ifm-navbar-link-color);
-  font-weight: 500;
-  font-size: 1rem;
+  gap: 8px;
+  padding: 8px 16px;
+  color: var(--ifm-color-content-secondary);
   text-decoration: none;
-  padding: 8px 0;
-  border-bottom: 2px solid transparent;
-  transition: border 0.2s, color 0.2s;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  position: relative;
 }
-.tab:hover, .tab.active {
+
+.tab:hover {
   color: var(--ifm-color-primary);
-  border-bottom: 2px solid var(--ifm-color-primary);
+  background: var(--ifm-color-primary-lightest);
+  text-decoration: none;
 }
+
+/* 활성 탭 스타일 - GitBook 스타일 */
+.tab.active {
+  color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-lightest);
+  font-weight: 600;
+  border-bottom: 2px solid var(--ifm-color-primary);
+  border-radius: 6px 6px 0 0;
+}
+
+.tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--ifm-color-primary);
+}
+
+/* 모바일 대응 */
+@media (max-width: 768px) {
+  .subnav {
+    padding: 0 16px;
+    height: 44px;
+  }
+  
+  .tab {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+}
+
 .tab span {
   line-height: 1;
 } 
