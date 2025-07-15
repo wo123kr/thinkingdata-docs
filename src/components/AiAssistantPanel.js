@@ -108,7 +108,7 @@ ${relatedDocs.length > 0
       />
       
       {/* AI Panel */}
-      <div style={{
+      <div className="ai-panel" style={{
         position: 'fixed',
         top: 0,
         right: 0,
@@ -215,6 +215,8 @@ ${relatedDocs.length > 0
                       <a
                         key={doc.path}
                         href={useBaseUrl(doc.path)}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         style={{
                           display: 'block',
                           padding: '6px 0',

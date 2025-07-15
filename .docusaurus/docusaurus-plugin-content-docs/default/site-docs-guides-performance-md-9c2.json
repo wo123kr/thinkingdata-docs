@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 4
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs2Sidebar",
   "previous": {
     "title": "데이터 모델링",
     "permalink": "/thinkingdata-docs/docs/guides/data-modeling"

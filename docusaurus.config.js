@@ -58,6 +58,24 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs2',
+        path: 'docs2',
+        routeBasePath: 'docs2',
+        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarItemsGenerator: async function({ defaultSidebarItemsGenerator, ...args }) {
+          // docs2Sidebar만 반환
+          const items = await defaultSidebarItemsGenerator(args);
+          return items;
+        },
+        editUrl: 'https://github.com/wo123kr/thinkingdata-docs/tree/main/',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

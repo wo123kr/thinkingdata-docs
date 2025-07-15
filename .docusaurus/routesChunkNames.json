@@ -63,54 +63,103 @@
     "sidebar": "814f3328",
     "content": "af775ebe"
   },
-  "/thinkingdata-docs/docs-858": {
+  "/thinkingdata-docs/docs-ff4": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "2db87368"
     }
   },
-  "/thinkingdata-docs/docs-c97": {
+  "/thinkingdata-docs/docs-c08": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
-  "/thinkingdata-docs/docs-970": {
+  "/thinkingdata-docs/docs-9f5": {
     "__comp": "a94703ab"
   },
-  "/thinkingdata-docs/docs/api/reference-29a": {
+  "/thinkingdata-docs/docs/api/reference-7ff": {
     "__comp": "17896441",
     "content": "47b0b88f"
   },
-  "/thinkingdata-docs/docs/api/sdk-570": {
+  "/thinkingdata-docs/docs/api/sdk-786": {
     "__comp": "17896441",
     "content": "ff4e0346"
   },
-  "/thinkingdata-docs/docs/getting-started-0b4": {
+  "/thinkingdata-docs/docs/getting-started-641": {
     "__comp": "17896441",
     "content": "d589d3a7"
   },
-  "/thinkingdata-docs/docs/guides/configuration-657": {
+  "/thinkingdata-docs/docs/guides/configuration-101": {
     "__comp": "17896441",
     "content": "956ba2e7"
   },
-  "/thinkingdata-docs/docs/guides/data-modeling-6a4": {
+  "/thinkingdata-docs/docs/guides/data-modeling-1a8": {
     "__comp": "17896441",
     "content": "4584dc74"
   },
-  "/thinkingdata-docs/docs/guides/installation-ce6": {
+  "/thinkingdata-docs/docs/guides/installation-6c1": {
     "__comp": "17896441",
     "content": "242d11c4"
   },
-  "/thinkingdata-docs/docs/guides/performance-53b": {
+  "/thinkingdata-docs/docs/guides/performance-de8": {
     "__comp": "17896441",
     "content": "9c2b973e"
   },
-  "/thinkingdata-docs/docs/guides/security-d12": {
+  "/thinkingdata-docs/docs/guides/security-e77": {
     "__comp": "17896441",
     "content": "ad17972e"
   },
-  "/thinkingdata-docs/docs/intro-f33": {
+  "/thinkingdata-docs/docs/intro-940": {
     "__comp": "17896441",
     "content": "0e384e19"
+  },
+  "/thinkingdata-docs/docs2-a1c": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "7de018ab"
+    }
+  },
+  "/thinkingdata-docs/docs2-5e6": {
+    "__comp": "a7bd4aaa",
+    "version": "d684f66d"
+  },
+  "/thinkingdata-docs/docs2-d13": {
+    "__comp": "a94703ab"
+  },
+  "/thinkingdata-docs/docs2/api/reference-dbb": {
+    "__comp": "17896441",
+    "content": "69c18838"
+  },
+  "/thinkingdata-docs/docs2/api/sdk-9ce": {
+    "__comp": "17896441",
+    "content": "1a8fd714"
+  },
+  "/thinkingdata-docs/docs2/getting-started-ec9": {
+    "__comp": "17896441",
+    "content": "4d7b1cfd"
+  },
+  "/thinkingdata-docs/docs2/guides/configuration-f5a": {
+    "__comp": "17896441",
+    "content": "66a89a4b"
+  },
+  "/thinkingdata-docs/docs2/guides/data-modeling-f7a": {
+    "__comp": "17896441",
+    "content": "e2d7d2e4"
+  },
+  "/thinkingdata-docs/docs2/guides/installation-e68": {
+    "__comp": "17896441",
+    "content": "d8dfc57b"
+  },
+  "/thinkingdata-docs/docs2/guides/performance-9d6": {
+    "__comp": "17896441",
+    "content": "5e894e64"
+  },
+  "/thinkingdata-docs/docs2/guides/security-e3e": {
+    "__comp": "17896441",
+    "content": "84b5e4c3"
+  },
+  "/thinkingdata-docs/docs2/intro-733": {
+    "__comp": "17896441",
+    "content": "d1bc7590"
   },
   "/thinkingdata-docs/-fd6": {
     "__comp": "c4f5d8e4",

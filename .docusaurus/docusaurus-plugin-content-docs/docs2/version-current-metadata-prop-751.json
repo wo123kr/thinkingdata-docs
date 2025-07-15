@@ -1,0 +1,246 @@
+{
+  "pluginId": "docs2",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "시작하기",
+        "items": [
+          {
+            "type": "link",
+            "label": "문서2에 오신 것을 환영합니다",
+            "href": "/thinkingdata-docs/docs2/intro",
+            "docId": "intro",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 Getting Started",
+            "href": "/thinkingdata-docs/docs2/getting-started",
+            "docId": "getting-started",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "API 참조",
+        "items": [
+          {
+            "type": "link",
+            "label": "문서2 API Reference",
+            "href": "/thinkingdata-docs/docs2/api/reference",
+            "docId": "api/reference",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 SDK 가이드",
+            "href": "/thinkingdata-docs/docs2/api/sdk",
+            "docId": "api/sdk",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "가이드",
+        "items": [
+          {
+            "type": "link",
+            "label": "문서2 설치 가이드",
+            "href": "/thinkingdata-docs/docs2/guides/installation",
+            "docId": "guides/installation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 설정 가이드",
+            "href": "/thinkingdata-docs/docs2/guides/configuration",
+            "docId": "guides/configuration",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 데이터 모델링",
+            "href": "/thinkingdata-docs/docs2/guides/data-modeling",
+            "docId": "guides/data-modeling",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 성능 최적화",
+            "href": "/thinkingdata-docs/docs2/guides/performance",
+            "docId": "guides/performance",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 보안 가이드",
+            "href": "/thinkingdata-docs/docs2/guides/security",
+            "docId": "guides/security",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ],
+    "docs2Sidebar": [
+      {
+        "type": "category",
+        "label": "시작하기",
+        "items": [
+          {
+            "type": "link",
+            "label": "문서2에 오신 것을 환영합니다",
+            "href": "/thinkingdata-docs/docs2/intro",
+            "docId": "intro",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 Getting Started",
+            "href": "/thinkingdata-docs/docs2/getting-started",
+            "docId": "getting-started",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "API 참조",
+        "items": [
+          {
+            "type": "link",
+            "label": "문서2 API Reference",
+            "href": "/thinkingdata-docs/docs2/api/reference",
+            "docId": "api/reference",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 SDK 가이드",
+            "href": "/thinkingdata-docs/docs2/api/sdk",
+            "docId": "api/sdk",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "문서2 가이드",
+        "items": [
+          {
+            "type": "link",
+            "label": "문서2 설치 가이드",
+            "href": "/thinkingdata-docs/docs2/guides/installation",
+            "docId": "guides/installation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 설정 가이드",
+            "href": "/thinkingdata-docs/docs2/guides/configuration",
+            "docId": "guides/configuration",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 데이터 모델링",
+            "href": "/thinkingdata-docs/docs2/guides/data-modeling",
+            "docId": "guides/data-modeling",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 성능 최적화",
+            "href": "/thinkingdata-docs/docs2/guides/performance",
+            "docId": "guides/performance",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "문서2 보안 가이드",
+            "href": "/thinkingdata-docs/docs2/guides/security",
+            "docId": "guides/security",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "api/reference": {
+      "id": "api/reference",
+      "title": "문서2 API Reference",
+      "description": "이 페이지는 문서2의 API 엔드포인트를 설명합니다.",
+      "sidebar": "docs2Sidebar"
+    },
+    "api/sdk": {
+      "id": "api/sdk",
+      "title": "문서2 SDK 가이드",
+      "description": "문서2에서 제공하는 SDK 사용법을 안내합니다.",
+      "sidebar": "docs2Sidebar"
+    },
+    "getting-started": {
+      "id": "getting-started",
+      "title": "문서2 Getting Started",
+      "description": "문서2의 시작을 위한 안내 페이지입니다.",
+      "sidebar": "docs2Sidebar"
+    },
+    "guides/configuration": {
+      "id": "guides/configuration",
+      "title": "문서2 설정 가이드",
+      "description": "문서2의 고급 설정 및 최적화 방법을 안내합니다.",
+      "sidebar": "docs2Sidebar"
+    },
+    "guides/data-modeling": {
+      "id": "guides/data-modeling",
+      "title": "문서2 데이터 모델링",
+      "description": "문서2에서 효율적인 데이터 구조 설계 방법을 안내합니다.",
+      "sidebar": "docs2Sidebar"
+    },
+    "guides/installation": {
+      "id": "guides/installation",
+      "title": "문서2 설치 가이드",
+      "description": "문서2의 설치 방법을 안내합니다.",
+      "sidebar": "docs2Sidebar"
+    },
+    "guides/performance": {
+      "id": "guides/performance",
+      "title": "문서2 성능 최적화",
+      "description": "문서2에서 대용량 데이터 처리 및 성능 최적화 방법을 안내합니다.",
+      "sidebar": "docs2Sidebar"
+    },
+    "guides/security": {
+      "id": "guides/security",
+      "title": "문서2 보안 가이드",
+      "description": "문서2에서 데이터 보안 및 접근 제어를 위한 모범 사례를 안내합니다.",
+      "sidebar": "docs2Sidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "문서2에 오신 것을 환영합니다",
+      "description": "이곳은 별도의 문서군(문서2)입니다. 기존 문서와 동일하게 시작하기, API 참조, 가이드 등 다양한 내용을 담을 수 있습니다.",
+      "sidebar": "docs2Sidebar"
+    }
+  }
+}

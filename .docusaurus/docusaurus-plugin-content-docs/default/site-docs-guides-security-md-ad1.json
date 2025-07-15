@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 5
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs2Sidebar",
   "previous": {
     "title": "성능 최적화",
     "permalink": "/thinkingdata-docs/docs/guides/performance"

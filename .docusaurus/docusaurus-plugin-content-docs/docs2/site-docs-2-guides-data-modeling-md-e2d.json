@@ -1,0 +1,26 @@
+{
+  "id": "guides/data-modeling",
+  "title": "문서2 데이터 모델링",
+  "description": "문서2에서 효율적인 데이터 구조 설계 방법을 안내합니다.",
+  "source": "@site/docs2/guides/data-modeling.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/data-modeling",
+  "permalink": "/thinkingdata-docs/docs2/guides/data-modeling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs2/guides/data-modeling.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "문서2 데이터 모델링"
+  },
+  "sidebar": "docs2Sidebar",
+  "previous": {
+    "title": "문서2 설정 가이드",
+    "permalink": "/thinkingdata-docs/docs2/guides/configuration"
+  },
+  "next": {
+    "title": "문서2 성능 최적화",
+    "permalink": "/thinkingdata-docs/docs2/guides/performance"
+  }
+}

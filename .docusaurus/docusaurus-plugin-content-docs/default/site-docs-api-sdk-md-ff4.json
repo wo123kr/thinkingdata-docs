@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 2
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs2Sidebar",
   "previous": {
     "title": "API 참조",
     "permalink": "/thinkingdata-docs/docs/api/reference"

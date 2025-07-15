@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs2Sidebar",
   "previous": {
     "title": "시작하기",
     "permalink": "/thinkingdata-docs/docs/getting-started"

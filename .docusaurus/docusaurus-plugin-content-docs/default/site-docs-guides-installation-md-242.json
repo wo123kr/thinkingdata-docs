@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs2Sidebar",
   "previous": {
     "title": "SDK 가이드",
     "permalink": "/thinkingdata-docs/docs/api/sdk"

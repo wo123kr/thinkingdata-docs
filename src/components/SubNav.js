@@ -1,6 +1,6 @@
 import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import { HiOutlineDocumentText, HiOutlineAcademicCap } from 'react-icons/hi2';
+import { HiOutlineDocumentText } from 'react-icons/hi2';
 import styles from './SubNav.module.css';
 
 const tabs = [
@@ -10,9 +10,9 @@ const tabs = [
     icon: <HiOutlineDocumentText size={18} />
   },
   { 
-    label: '가이드', 
-    href: '/thinkingdata-docs/docs/guides/installation',
-    icon: <HiOutlineAcademicCap size={18} />
+    label: '문서2', 
+    href: '/thinkingdata-docs/docs2/intro',
+    icon: <HiOutlineDocumentText size={18} />
   },
 ];
 

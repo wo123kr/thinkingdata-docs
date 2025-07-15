@@ -1,0 +1,26 @@
+{
+  "id": "api/reference",
+  "title": "문서2 API Reference",
+  "description": "이 페이지는 문서2의 API 엔드포인트를 설명합니다.",
+  "source": "@site/docs2/api/reference.md",
+  "sourceDirName": "api",
+  "slug": "/api/reference",
+  "permalink": "/thinkingdata-docs/docs2/api/reference",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs2/api/reference.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "문서2 API Reference"
+  },
+  "sidebar": "docs2Sidebar",
+  "previous": {
+    "title": "문서2 Getting Started",
+    "permalink": "/thinkingdata-docs/docs2/getting-started"
+  },
+  "next": {
+    "title": "문서2 SDK 가이드",
+    "permalink": "/thinkingdata-docs/docs2/api/sdk"
+  }
+}

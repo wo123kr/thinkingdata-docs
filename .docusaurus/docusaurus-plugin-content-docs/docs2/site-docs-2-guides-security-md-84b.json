@@ -1,0 +1,22 @@
+{
+  "id": "guides/security",
+  "title": "문서2 보안 가이드",
+  "description": "문서2에서 데이터 보안 및 접근 제어를 위한 모범 사례를 안내합니다.",
+  "source": "@site/docs2/guides/security.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/security",
+  "permalink": "/thinkingdata-docs/docs2/guides/security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs2/guides/security.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "문서2 보안 가이드"
+  },
+  "sidebar": "docs2Sidebar",
+  "previous": {
+    "title": "문서2 성능 최적화",
+    "permalink": "/thinkingdata-docs/docs2/guides/performance"
+  }
+}

@@ -118,9 +118,19 @@ export default function MainHeader() {
 
   // 추천 질문 클릭
   const handleSuggestedQuestion = (question) => {
-    setSearchQuery(question);
-    setShowSuggestions(false);
-    handleAISearch(question);
+    setAiQuery(question);
+    setAiPanelOpen(true);
+    setTimeout(() => {
+      // AI 패널이 열리고 inputValue가 세팅된 후 자동 전송
+      const input = document.querySelector('.ai-panel textarea');
+      if (input) {
+        // 엔터 이벤트를 트리거
+        const event = new KeyboardEvent('keypress', { key: 'Enter', bubbles: true });
+        input.value = question;
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+        input.dispatchEvent(event);
+      }
+    }, 300);
   };
 
   // 검색 결과 클릭
@@ -250,32 +260,25 @@ export default function MainHeader() {
                   </div>
 
                   {/* 문서 검색 결과 */}
-                  {searchResults.map((result, index) => (
-                    <div
+                  {searchResults.map((result, idx) => (
+                    <a
                       key={result.item.path}
-                      onClick={() => handleResultClick(result.item.path)}
+                      href={useBaseUrl(result.item.path)}
                       style={{
+                        display: 'block',
                         padding: '12px 16px',
                         cursor: 'pointer',
-                        background: selectedIndex === index + 1 ? 'var(--ifm-hover-overlay)' : 'transparent',
-                        borderBottom: index === searchResults.length - 1 ? 'none' : '1px solid var(--ifm-color-emphasis-200)'
+                        background: selectedIndex === idx + 1 ? 'var(--ifm-hover-overlay)' : 'transparent',
+                        borderBottom: idx === searchResults.length - 1 ? 'none' : '1px solid var(--ifm-color-emphasis-200)',
+                        color: 'inherit',
+                        textDecoration: 'none',
+                        fontSize: '0.9rem',
                       }}
+                      onClick={() => setShowDropdown(false)}
                     >
-                      <div style={{ fontSize: '0.9rem', fontWeight: 500, marginBottom: '4px' }}>
-                        <span dangerouslySetInnerHTML={{ 
-                          __html: highlightText(result.item.title, searchQuery) 
-                        }} />
-                      </div>
-                      <div style={{ 
-                        fontSize: '0.8rem', 
-                        color: 'var(--ifm-color-emphasis-600)',
-                        lineHeight: '1.3'
-                      }}>
-                        <span dangerouslySetInnerHTML={{ 
-                          __html: highlightText(result.item.content.slice(0, 100) + '...', searchQuery) 
-                        }} />
-                      </div>
-                    </div>
+                      <div style={{ fontWeight: 500, marginBottom: 4 }} dangerouslySetInnerHTML={{ __html: highlightText(result.item.title, searchQuery) }} />
+                      <div style={{ fontSize: '0.8rem', color: 'var(--ifm-color-emphasis-600)', lineHeight: 1.3 }} dangerouslySetInnerHTML={{ __html: highlightText(result.item.content.slice(0, 100) + '...', searchQuery) }} />
+                    </a>
                   ))}
 
                   {searchResults.length === 0 && (

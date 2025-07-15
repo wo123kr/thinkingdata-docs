@@ -39,6 +39,18 @@ export default {
       }
     ]
   ],
+  "plugins": [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "docs2",
+        "path": "docs2",
+        "routeBasePath": "docs2",
+        "sidebarPath": "/Users/jegaljin-u/workspace/thinkingdata-docs/sidebars.js",
+        "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/"
+      }
+    ]
+  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
@@ -315,7 +327,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

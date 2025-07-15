@@ -1,0 +1,26 @@
+{
+  "id": "getting-started",
+  "title": "문서2 Getting Started",
+  "description": "문서2의 시작을 위한 안내 페이지입니다.",
+  "source": "@site/docs2/getting-started.md",
+  "sourceDirName": ".",
+  "slug": "/getting-started",
+  "permalink": "/thinkingdata-docs/docs2/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs2/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "문서2 Getting Started"
+  },
+  "sidebar": "docs2Sidebar",
+  "previous": {
+    "title": "문서2에 오신 것을 환영합니다",
+    "permalink": "/thinkingdata-docs/docs2/intro"
+  },
+  "next": {
+    "title": "문서2 API Reference",
+    "permalink": "/thinkingdata-docs/docs2/api/reference"
+  }
+}

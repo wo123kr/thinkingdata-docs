@@ -24,6 +24,30 @@ const sidebars = {
       ],
     },
   ],
+  // 문서2 사이드바 (id에서 docs2/ 접두어 제거)
+  docs2Sidebar: [
+    {
+      type: 'category',
+      label: '시작하기',
+      items: ['intro', 'getting-started'],
+    },
+    {
+      type: 'category',
+      label: 'API 참조',
+      items: ['api/reference', 'api/sdk'],
+    },
+    {
+      type: 'category',
+      label: '문서2 가이드',
+      items: [
+        'guides/installation',
+        'guides/configuration',
+        'guides/data-modeling',
+        'guides/performance',
+        'guides/security'
+      ],
+    },
+  ],
 };
 
 module.exports = sidebars; 

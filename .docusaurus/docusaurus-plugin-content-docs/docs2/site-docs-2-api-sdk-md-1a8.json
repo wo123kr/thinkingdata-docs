@@ -1,0 +1,26 @@
+{
+  "id": "api/sdk",
+  "title": "문서2 SDK 가이드",
+  "description": "문서2에서 제공하는 SDK 사용법을 안내합니다.",
+  "source": "@site/docs2/api/sdk.md",
+  "sourceDirName": "api",
+  "slug": "/api/sdk",
+  "permalink": "/thinkingdata-docs/docs2/api/sdk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs2/api/sdk.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "문서2 SDK 가이드"
+  },
+  "sidebar": "docs2Sidebar",
+  "previous": {
+    "title": "문서2 API Reference",
+    "permalink": "/thinkingdata-docs/docs2/api/reference"
+  },
+  "next": {
+    "title": "문서2 설치 가이드",
+    "permalink": "/thinkingdata-docs/docs2/guides/installation"
+  }
+}

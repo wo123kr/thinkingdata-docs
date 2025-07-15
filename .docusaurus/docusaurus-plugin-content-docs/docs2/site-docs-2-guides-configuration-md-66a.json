@@ -1,0 +1,26 @@
+{
+  "id": "guides/configuration",
+  "title": "문서2 설정 가이드",
+  "description": "문서2의 고급 설정 및 최적화 방법을 안내합니다.",
+  "source": "@site/docs2/guides/configuration.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/configuration",
+  "permalink": "/thinkingdata-docs/docs2/guides/configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs2/guides/configuration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "문서2 설정 가이드"
+  },
+  "sidebar": "docs2Sidebar",
+  "previous": {
+    "title": "문서2 설치 가이드",
+    "permalink": "/thinkingdata-docs/docs2/guides/installation"
+  },
+  "next": {
+    "title": "문서2 데이터 모델링",
+    "permalink": "/thinkingdata-docs/docs2/guides/data-modeling"
+  }
+}

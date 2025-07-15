@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 2
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "docs2Sidebar",
   "previous": {
     "title": "설치 가이드",
     "permalink": "/thinkingdata-docs/docs/guides/installation"
