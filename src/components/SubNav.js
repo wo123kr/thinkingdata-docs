@@ -6,12 +6,12 @@ import styles from './SubNav.module.css';
 const tabs = [
   { 
     label: '문서', 
-    href: '/docs/intro',
+    href: '/thinkingdata-docs/docs/intro',
     icon: <HiOutlineDocumentText size={18} />
   },
   { 
     label: '가이드', 
-    href: '/docs/guides/installation',
+    href: '/thinkingdata-docs/docs/guides/installation',
     icon: <HiOutlineAcademicCap size={18} />
   },
 ];
