@@ -1,0 +1,43 @@
+.cookieBar {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  background: #222;
+  color: #fff;
+  padding: 20px 28px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+  z-index: 3000;
+  font-size: 1rem;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.cookieBar a {
+  color: #90caf9;
+  text-decoration: underline;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.accept {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.reject {
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 18px;
+  font-weight: 600;
+  cursor: pointer;
+} 
