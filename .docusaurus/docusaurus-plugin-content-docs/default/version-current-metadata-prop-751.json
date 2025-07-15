@@ -16,14 +16,14 @@
           {
             "type": "link",
             "label": "ThinkingData 문서에 오신 것을 환영합니다",
-            "href": "/docs/intro",
+            "href": "/thinkingdata-docs/docs/intro",
             "docId": "intro",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "시작하기",
-            "href": "/docs/getting-started",
+            "href": "/thinkingdata-docs/docs/getting-started",
             "docId": "getting-started",
             "unlisted": false
           }
@@ -38,8 +38,15 @@
           {
             "type": "link",
             "label": "API 참조",
-            "href": "/docs/api/reference",
+            "href": "/thinkingdata-docs/docs/api/reference",
             "docId": "api/reference",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "SDK 가이드",
+            "href": "/thinkingdata-docs/docs/api/sdk",
+            "docId": "api/sdk",
             "unlisted": false
           }
         ],
@@ -53,15 +60,36 @@
           {
             "type": "link",
             "label": "설치 가이드",
-            "href": "/docs/guides/installation",
+            "href": "/thinkingdata-docs/docs/guides/installation",
             "docId": "guides/installation",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "설정 가이드",
-            "href": "/docs/guides/configuration",
+            "href": "/thinkingdata-docs/docs/guides/configuration",
             "docId": "guides/configuration",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "데이터 모델링",
+            "href": "/thinkingdata-docs/docs/guides/data-modeling",
+            "docId": "guides/data-modeling",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "성능 최적화",
+            "href": "/thinkingdata-docs/docs/guides/performance",
+            "docId": "guides/performance",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "보안 가이드",
+            "href": "/thinkingdata-docs/docs/guides/security",
+            "docId": "guides/security",
             "unlisted": false
           }
         ],
@@ -77,6 +105,12 @@
       "description": "ThinkingData REST API를 사용하여 데이터를 전송하고 조회할 수 있습니다.",
       "sidebar": "tutorialSidebar"
     },
+    "api/sdk": {
+      "id": "api/sdk",
+      "title": "SDK 가이드",
+      "description": "ThinkingData SDK를 사용하여 다양한 프로그래밍 언어에서 데이터를 전송하는 방법을 안내합니다.",
+      "sidebar": "tutorialSidebar"
+    },
     "getting-started": {
       "id": "getting-started",
       "title": "시작하기",
@@ -89,10 +123,28 @@
       "description": "ThinkingData SDK의 고급 설정 옵션과 최적화 방법을 안내합니다.",
       "sidebar": "tutorialSidebar"
     },
+    "guides/data-modeling": {
+      "id": "guides/data-modeling",
+      "title": "데이터 모델링",
+      "description": "ThinkingData 플랫폼에서 효율적인 데이터 구조를 설계하는 방법을 안내합니다.",
+      "sidebar": "tutorialSidebar"
+    },
     "guides/installation": {
       "id": "guides/installation",
       "title": "설치 가이드",
       "description": "ThinkingData SDK를 다양한 환경에 설치하는 방법을 안내합니다.",
+      "sidebar": "tutorialSidebar"
+    },
+    "guides/performance": {
+      "id": "guides/performance",
+      "title": "성능 최적화",
+      "description": "ThinkingData 플랫폼에서 대용량 데이터를 효율적으로 처리하고 성능을 최적화하는 방법을 안내합니다.",
+      "sidebar": "tutorialSidebar"
+    },
+    "guides/security": {
+      "id": "guides/security",
+      "title": "보안 가이드",
+      "description": "ThinkingData 플랫폼에서 데이터 보안과 접근 제어를 위한 모범 사례를 안내합니다.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

@@ -5,10 +5,10 @@
   "source": "@site/docs/guides/installation.md",
   "sourceDirName": "guides",
   "slug": "/guides/installation",
-  "permalink": "/docs/guides/installation",
+  "permalink": "/thinkingdata-docs/docs/guides/installation",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/guides/installation.md",
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs/guides/installation.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "API 참조",
-    "permalink": "/docs/api/reference"
+    "title": "SDK 가이드",
+    "permalink": "/thinkingdata-docs/docs/api/sdk"
   },
   "next": {
     "title": "설정 가이드",
-    "permalink": "/docs/guides/configuration"
+    "permalink": "/thinkingdata-docs/docs/guides/configuration"
   }
 }

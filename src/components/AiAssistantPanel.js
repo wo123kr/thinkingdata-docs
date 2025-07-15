@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import { docsIndex } from '../utils/searchIndex';
 import Fuse from 'fuse.js';
 
@@ -213,7 +214,7 @@ ${relatedDocs.length > 0
                     {message.relatedDocs.map(doc => (
                       <a
                         key={doc.path}
-                        href={doc.path}
+                        href={useBaseUrl(doc.path)}
                         style={{
                           display: 'block',
                           padding: '6px 0',

@@ -4,6 +4,9 @@ const path = require('path');
 const DOCS_DIR = path.join(__dirname, '../docs');
 const OUT_FILE = path.join(__dirname, '../src/utils/searchIndex.js');
 
+// baseUrl 설정 (GitHub Pages 배포용)
+const BASE_URL = '/thinkingdata-docs';
+
 function walk(dir) {
   let results = [];
   fs.readdirSync(dir).forEach(file => {
@@ -37,7 +40,8 @@ function extractMeta(mdPath) {
 function mdPathToRoute(mdPath) {
   const rel = path.relative(DOCS_DIR, mdPath).replace(/\\/g, '/');
   const noExt = rel.replace(/\.md$/, '');
-  return '/docs/' + noExt;
+  // baseUrl 포함하여 경로 생성
+  return BASE_URL + '/docs/' + noExt;
 }
 
 const mdFiles = walk(DOCS_DIR);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthinkingdata_docs=self.webpackChunkthinkingdata_docs||[]).push([[850],{2161:t=>{t.exports=JSON.parse('[{"label":"welcome","permalink":"/thinkingdata-docs/blog/tags/welcome","count":1},{"label":"introduction","permalink":"/thinkingdata-docs/blog/tags/introduction","count":1}]')}}]);

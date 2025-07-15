@@ -5,10 +5,10 @@
   "source": "@site/docs/api/reference.md",
   "sourceDirName": "api",
   "slug": "/api/reference",
-  "permalink": "/docs/api/reference",
+  "permalink": "/thinkingdata-docs/docs/api/reference",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/api/reference.md",
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs/api/reference.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "시작하기",
-    "permalink": "/docs/getting-started"
+    "permalink": "/thinkingdata-docs/docs/getting-started"
   },
   "next": {
-    "title": "설치 가이드",
-    "permalink": "/docs/guides/installation"
+    "title": "SDK 가이드",
+    "permalink": "/thinkingdata-docs/docs/api/sdk"
   }
 }

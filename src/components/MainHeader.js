@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useColorMode } from '@docusaurus/theme-common';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './MainHeader.module.css';
 import AiButton from './AiButton';
 import Fuse from 'fuse.js';
@@ -86,7 +87,7 @@ export default function MainHeader() {
   };
 
   const handleResultClick = (path) => {
-    window.location.href = path;
+    window.location.href = useBaseUrl(path);
   };
 
   const toggleColorMode = () => {

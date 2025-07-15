@@ -1,8 +1,7 @@
 {
   "defaultLocale": "ko",
   "locales": [
-    "ko",
-    "en"
+    "ko"
   ],
   "path": "i18n",
   "currentLocale": "ko",
@@ -13,13 +12,6 @@
       "htmlLang": "ko",
       "calendar": "gregory",
       "path": "ko"
-    },
-    "en": {
-      "label": "English",
-      "direction": "ltr",
-      "htmlLang": "en",
-      "calendar": "gregory",
-      "path": "en"
     }
   }
 }

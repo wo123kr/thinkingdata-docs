@@ -5,10 +5,10 @@
   "source": "@site/docs/getting-started.md",
   "sourceDirName": ".",
   "slug": "/getting-started",
-  "permalink": "/docs/getting-started",
+  "permalink": "/thinkingdata-docs/docs/getting-started",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/getting-started.md",
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs/getting-started.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ThinkingData 문서에 오신 것을 환영합니다",
-    "permalink": "/docs/intro"
+    "permalink": "/thinkingdata-docs/docs/intro"
   },
   "next": {
     "title": "API 참조",
-    "permalink": "/docs/api/reference"
+    "permalink": "/thinkingdata-docs/docs/api/reference"
   }
 }

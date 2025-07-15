@@ -1,0 +1,517 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "544": [
+      249,
+      643,
+      778,
+      813,
+      869,
+      544
+    ],
+    "778": [
+      249,
+      401,
+      544,
+      643,
+      813,
+      869,
+      778
+    ],
+    "17896441": [
+      778,
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "01a85c17": [
+      869,
+      209
+    ],
+    "0772a58d": [
+      493
+    ],
+    "08d0930a": [
+      850
+    ],
+    "0d567a88": [
+      586
+    ],
+    "0e384e19": [
+      976
+    ],
+    "17d64f39": [
+      871
+    ],
+    "242d11c4": [
+      720
+    ],
+    "2db87368": [
+      527
+    ],
+    "453b80b1": [
+      138
+    ],
+    "4584dc74": [
+      996
+    ],
+    "47b0b88f": [
+      762
+    ],
+    "5e95c892": [
+      647
+    ],
+    "6875c492": [
+      544,
+      778,
+      869,
+      813
+    ],
+    "774de512": [
+      614
+    ],
+    "7c9a751d": [
+      968
+    ],
+    "814f3328": [
+      472
+    ],
+    "935f2afb": [
+      581
+    ],
+    "956ba2e7": [
+      536
+    ],
+    "9c2b973e": [
+      139
+    ],
+    "9d0e9558": [
+      496
+    ],
+    "9e4087bc": [
+      711
+    ],
+    "a6aa9e1f": [
+      544,
+      778,
+      869,
+      643
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "ad17972e": [
+      507
+    ],
+    "af775ebe": [
+      637
+    ],
+    "c4f5d8e4": [
+      869,
+      634
+    ],
+    "ccc49370": [
+      544,
+      778,
+      869,
+      249
+    ],
+    "d589d3a7": [
+      924
+    ],
+    "dc543a8b": [
+      613
+    ],
+    "e15a18f5": [
+      679
+    ],
+    "ff4e0346": [
+      271
+    ],
+    "styles": [
+      48,
+      209,
+      249,
+      354,
+      401,
+      544,
+      634,
+      643,
+      778,
+      792,
+      813,
+      869
+    ]
+  },
+  "assets": {
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.d2af5afa.js",
+          "hash": "1a6dab0b51b4f76f",
+          "publicPath": "/thinkingdata-docs/assets/js/a94703ab.d2af5afa.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.6b823385.js",
+          "hash": "80b57bb44728c974",
+          "publicPath": "/thinkingdata-docs/assets/js/a7bd4aaa.6b823385.js"
+        }
+      ]
+    },
+    "138": {
+      "js": [
+        {
+          "file": "assets/js/453b80b1.3803661a.js",
+          "hash": "7e0141f005e4f79b",
+          "publicPath": "/thinkingdata-docs/assets/js/453b80b1.3803661a.js"
+        }
+      ]
+    },
+    "139": {
+      "js": [
+        {
+          "file": "assets/js/9c2b973e.a6e58b29.js",
+          "hash": "e225bdd29ae076f1",
+          "publicPath": "/thinkingdata-docs/assets/js/9c2b973e.a6e58b29.js"
+        }
+      ]
+    },
+    "209": {
+      "js": [
+        {
+          "file": "assets/js/01a85c17.f5748984.js",
+          "hash": "04a1473828b713dc",
+          "publicPath": "/thinkingdata-docs/assets/js/01a85c17.f5748984.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.024066fc.js",
+          "hash": "8cdd072fb1b6be97",
+          "publicPath": "/thinkingdata-docs/assets/js/237.024066fc.js"
+        }
+      ]
+    },
+    "249": {
+      "js": [
+        {
+          "file": "assets/js/ccc49370.d13422d7.js",
+          "hash": "f5301e19b8a04be8",
+          "publicPath": "/thinkingdata-docs/assets/js/ccc49370.d13422d7.js"
+        }
+      ]
+    },
+    "271": {
+      "js": [
+        {
+          "file": "assets/js/ff4e0346.2b239f5f.js",
+          "hash": "9a73464466ff6f1a",
+          "publicPath": "/thinkingdata-docs/assets/js/ff4e0346.2b239f5f.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.60849130.js",
+          "hash": "7abec459b079f1ab",
+          "publicPath": "/thinkingdata-docs/assets/js/runtime~main.60849130.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.f0725acb.js",
+          "hash": "550fa6748acab64f",
+          "publicPath": "/thinkingdata-docs/assets/js/17896441.f0725acb.js"
+        }
+      ]
+    },
+    "472": {
+      "js": [
+        {
+          "file": "assets/js/814f3328.9387e67a.js",
+          "hash": "265629a9c79d696c",
+          "publicPath": "/thinkingdata-docs/assets/js/814f3328.9387e67a.js"
+        }
+      ]
+    },
+    "493": {
+      "js": [
+        {
+          "file": "assets/js/0772a58d.ec52f217.js",
+          "hash": "b827013b09972ccc",
+          "publicPath": "/thinkingdata-docs/assets/js/0772a58d.ec52f217.js"
+        }
+      ]
+    },
+    "496": {
+      "js": [
+        {
+          "file": "assets/js/9d0e9558.82b23551.js",
+          "hash": "d50f26c78c6bd6bb",
+          "publicPath": "/thinkingdata-docs/assets/js/9d0e9558.82b23551.js"
+        }
+      ]
+    },
+    "507": {
+      "js": [
+        {
+          "file": "assets/js/ad17972e.400d02c1.js",
+          "hash": "01c2689ed7ce0c37",
+          "publicPath": "/thinkingdata-docs/assets/js/ad17972e.400d02c1.js"
+        }
+      ]
+    },
+    "527": {
+      "js": [
+        {
+          "file": "assets/js/2db87368.854a4243.js",
+          "hash": "d518bb3ddaa27d0b",
+          "publicPath": "/thinkingdata-docs/assets/js/2db87368.854a4243.js"
+        }
+      ]
+    },
+    "536": {
+      "js": [
+        {
+          "file": "assets/js/956ba2e7.b6acfc37.js",
+          "hash": "55f8a7718ff1e3a6",
+          "publicPath": "/thinkingdata-docs/assets/js/956ba2e7.b6acfc37.js"
+        }
+      ]
+    },
+    "544": {
+      "js": [
+        {
+          "file": "assets/js/544.a474b6a5.js",
+          "hash": "af19c3de024675fb",
+          "publicPath": "/thinkingdata-docs/assets/js/544.a474b6a5.js"
+        }
+      ]
+    },
+    "581": {
+      "js": [
+        {
+          "file": "assets/js/935f2afb.ab929ad7.js",
+          "hash": "36c27392ec094c0d",
+          "publicPath": "/thinkingdata-docs/assets/js/935f2afb.ab929ad7.js"
+        }
+      ]
+    },
+    "586": {
+      "js": [
+        {
+          "file": "assets/js/0d567a88.3ed13379.js",
+          "hash": "50d94498a19416a2",
+          "publicPath": "/thinkingdata-docs/assets/js/0d567a88.3ed13379.js"
+        }
+      ]
+    },
+    "613": {
+      "js": [
+        {
+          "file": "assets/js/dc543a8b.309720d2.js",
+          "hash": "a774f12470b16fb4",
+          "publicPath": "/thinkingdata-docs/assets/js/dc543a8b.309720d2.js"
+        }
+      ]
+    },
+    "614": {
+      "js": [
+        {
+          "file": "assets/js/774de512.36042b93.js",
+          "hash": "a83c2c4c3cdbd451",
+          "publicPath": "/thinkingdata-docs/assets/js/774de512.36042b93.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.9338bdcb.js",
+          "hash": "a603414da1f4bcf6",
+          "publicPath": "/thinkingdata-docs/assets/js/c4f5d8e4.9338bdcb.js"
+        }
+      ]
+    },
+    "637": {
+      "js": [
+        {
+          "file": "assets/js/af775ebe.c10d68db.js",
+          "hash": "053b1fdad6824fea",
+          "publicPath": "/thinkingdata-docs/assets/js/af775ebe.c10d68db.js"
+        }
+      ]
+    },
+    "643": {
+      "js": [
+        {
+          "file": "assets/js/a6aa9e1f.ed188db0.js",
+          "hash": "18aabc8b10c98c41",
+          "publicPath": "/thinkingdata-docs/assets/js/a6aa9e1f.ed188db0.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.ea14dfd9.js",
+          "hash": "8d53bb8c67da6908",
+          "publicPath": "/thinkingdata-docs/assets/js/5e95c892.ea14dfd9.js"
+        }
+      ]
+    },
+    "679": {
+      "js": [
+        {
+          "file": "assets/js/e15a18f5.8ed4e1b7.js",
+          "hash": "8e1b6e2df571e54a",
+          "publicPath": "/thinkingdata-docs/assets/js/e15a18f5.8ed4e1b7.js"
+        }
+      ]
+    },
+    "711": {
+      "js": [
+        {
+          "file": "assets/js/9e4087bc.c4664f2d.js",
+          "hash": "1175b5cb927660c4",
+          "publicPath": "/thinkingdata-docs/assets/js/9e4087bc.c4664f2d.js"
+        }
+      ]
+    },
+    "720": {
+      "js": [
+        {
+          "file": "assets/js/242d11c4.a1edb517.js",
+          "hash": "6dd4aead1248b39e",
+          "publicPath": "/thinkingdata-docs/assets/js/242d11c4.a1edb517.js"
+        }
+      ]
+    },
+    "762": {
+      "js": [
+        {
+          "file": "assets/js/47b0b88f.1f9c58c3.js",
+          "hash": "f709e7d4e5d24a79",
+          "publicPath": "/thinkingdata-docs/assets/js/47b0b88f.1f9c58c3.js"
+        }
+      ]
+    },
+    "778": {
+      "js": [
+        {
+          "file": "assets/js/778.ee247f28.js",
+          "hash": "5ea1dd1f68b5dd86",
+          "publicPath": "/thinkingdata-docs/assets/js/778.ee247f28.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.fcdd972d.js",
+          "hash": "a50a7b8ca58c340b",
+          "publicPath": "/thinkingdata-docs/assets/js/main.fcdd972d.js"
+        }
+      ]
+    },
+    "813": {
+      "js": [
+        {
+          "file": "assets/js/6875c492.42e84bc3.js",
+          "hash": "20523e4499f9581b",
+          "publicPath": "/thinkingdata-docs/assets/js/6875c492.42e84bc3.js"
+        }
+      ]
+    },
+    "850": {
+      "js": [
+        {
+          "file": "assets/js/08d0930a.ee5929a7.js",
+          "hash": "3026317547098a16",
+          "publicPath": "/thinkingdata-docs/assets/js/08d0930a.ee5929a7.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.d20c85ef.css",
+          "hash": "614b1456e08f5ff4",
+          "publicPath": "/thinkingdata-docs/assets/css/styles.d20c85ef.css"
+        }
+      ]
+    },
+    "871": {
+      "js": [
+        {
+          "file": "assets/js/17d64f39.ca5330de.js",
+          "hash": "fdb6c14ecf63aa14",
+          "publicPath": "/thinkingdata-docs/assets/js/17d64f39.ca5330de.js"
+        }
+      ]
+    },
+    "924": {
+      "js": [
+        {
+          "file": "assets/js/d589d3a7.d699c3c1.js",
+          "hash": "0b269b49394aa85c",
+          "publicPath": "/thinkingdata-docs/assets/js/d589d3a7.d699c3c1.js"
+        }
+      ]
+    },
+    "968": {
+      "js": [
+        {
+          "file": "assets/js/7c9a751d.91408b91.js",
+          "hash": "96fa654fc6ab82ae",
+          "publicPath": "/thinkingdata-docs/assets/js/7c9a751d.91408b91.js"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.2c897c31.js",
+          "hash": "136af2304b733a81",
+          "publicPath": "/thinkingdata-docs/assets/js/0e384e19.2c897c31.js"
+        }
+      ]
+    },
+    "996": {
+      "js": [
+        {
+          "file": "assets/js/4584dc74.7649c1e2.js",
+          "hash": "cb30fcaac76e0117",
+          "publicPath": "/thinkingdata-docs/assets/js/4584dc74.7649c1e2.js"
+        }
+      ]
+    }
+  }
+}

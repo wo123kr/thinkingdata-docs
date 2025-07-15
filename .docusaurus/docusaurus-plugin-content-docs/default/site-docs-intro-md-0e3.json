@@ -5,10 +5,10 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/thinkingdata-docs/docs/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/intro.md",
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "시작하기",
-    "permalink": "/docs/getting-started"
+    "permalink": "/thinkingdata-docs/docs/getting-started"
   }
 }

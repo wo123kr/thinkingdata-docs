@@ -1,4 +1,10 @@
 {
   "title": "Recent posts",
-  "items": []
+  "items": [
+    {
+      "title": "ThinkingData 문서에 오신 것을 환영합니다",
+      "permalink": "/thinkingdata-docs/blog/welcome",
+      "unlisted": false
+    }
+  ]
 }

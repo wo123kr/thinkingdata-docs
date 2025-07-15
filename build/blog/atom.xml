@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wo123kr.github.io/thinkingdata-docs/blog</id>
+    <title>ThinkingData Docs Blog</title>
+    <updated>2024-01-15T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wo123kr.github.io/thinkingdata-docs/blog"/>
+    <subtitle>ThinkingData Docs Blog</subtitle>
+    <icon>https://wo123kr.github.io/thinkingdata-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[ThinkingData 문서에 오신 것을 환영합니다]]></title>
+        <id>https://wo123kr.github.io/thinkingdata-docs/blog/welcome</id>
+        <link href="https://wo123kr.github.io/thinkingdata-docs/blog/welcome"/>
+        <updated>2024-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[안녕하세요! ThinkingData 플랫폼의 공식 문서 사이트에 오신 것을 환영합니다.]]></summary>
+        <content type="html"><![CDATA[<p>안녕하세요! ThinkingData 플랫폼의 공식 문서 사이트에 오신 것을 환영합니다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-새��로운-시작">🚀 새로운 시작<a href="https://wo123kr.github.io/thinkingdata-docs/blog/welcome#-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%8B%9C%EC%9E%91" class="hash-link" aria-label="🚀 새로운 시작에 대한 직접 링크" title="🚀 새로운 시작에 대한 직접 링크">​</a></h2>
+<p>이 문서 사이트는 GitBook 스타일의 현대적이고 직관적인 인터페이스를 제공하여, 개발자들이 ThinkingData 플랫폼을 쉽게 이해하고 사용할 수 있도록 설계되었습니다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-제공되는-내용">📚 제공되는 내용<a href="https://wo123kr.github.io/thinkingdata-docs/blog/welcome#-%EC%A0%9C%EA%B3%B5%EB%90%98%EB%8A%94-%EB%82%B4%EC%9A%A9" class="hash-link" aria-label="📚 제공되는 내용에 대한 직접 링크" title="📚 제공되는 내용에 대한 직접 링크">​</a></h2>
+<ul>
+<li><strong>시작하기 가이드</strong>: 플랫폼 사용을 위한 첫 단계</li>
+<li><strong>API 참조</strong>: REST API 엔드포인트 문서</li>
+<li><strong>SDK 가이드</strong>: 다양한 프로그래밍 언어 SDK 사용법</li>
+<li><strong>설치 가이드</strong>: 환경별 설치 방법</li>
+<li><strong>설정 가이드</strong>: 고급 설정 및 최적화</li>
+<li><strong>데이터 모델링</strong>: 효율적인 데이터 구조 설계</li>
+<li><strong>성능 최적화</strong>: 대용량 데이터 처리 최적화</li>
+<li><strong>보안 가이드</strong>: 데이터 보안 및 접근 제어</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-주요-기능">🎯 주요 기능<a href="https://wo123kr.github.io/thinkingdata-docs/blog/welcome#-%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5" class="hash-link" aria-label="🎯 주요 기능에 대한 직접 링크" title="🎯 주요 기능에 대한 직접 링크">​</a></h2>
+<ul>
+<li><strong>GitBook 스타일 UI</strong>: 깔끔하고 현대적인 문서 인터페이스</li>
+<li><strong>다크/라이트 모드</strong>: 사용자 선호도에 따른 테마 전환</li>
+<li><strong>실시간 검색</strong>: 빠르고 정확한 문서 검색</li>
+<li><strong>반응형 디자인</strong>: 모바일, 태블릿, 데스크톱 지원</li>
+<li><strong>코드 하이라이팅</strong>: 다양한 프로그래밍 언어 지원</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-빠른-링크">🔗 빠른 링크<a href="https://wo123kr.github.io/thinkingdata-docs/blog/welcome#-%EB%B9%A0%EB%A5%B8-%EB%A7%81%ED%81%AC" class="hash-link" aria-label="🔗 빠른 링크에 대한 직접 링크" title="🔗 빠른 링크에 대한 직접 링크">​</a></h2>
+<ul>
+<li><a href="https://wo123kr.github.io/thinkingdata-docs/docs/intro">시작하기</a> - 플랫폼 소개 및 첫 단계</li>
+<li><a href="https://wo123kr.github.io/thinkingdata-docs/docs/api/reference">API 참조</a> - REST API 문서</li>
+<li><a href="https://wo123kr.github.io/thinkingdata-docs/docs/api/sdk">SDK 가이드</a> - 다양한 언어 SDK 사용법</li>
+<li><a href="https://wo123kr.github.io/thinkingdata-docs/docs/guides/installation">설치 가이드</a> - 환경별 설치 방법</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-기여하기">🤝 기여하기<a href="https://wo123kr.github.io/thinkingdata-docs/blog/welcome#-%EA%B8%B0%EC%97%AC%ED%95%98%EA%B8%B0" class="hash-link" aria-label="🤝 기여하기에 대한 직접 링크" title="🤝 기여하기에 대한 직접 링크">​</a></h2>
+<p>이 문서는 지속적으로 개선되고 있습니다. 오류를 발견하거나 개선 제안이 있으시면 <a href="https://github.com/wo123kr/thinkingdata-docs/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a>에 문의해주세요.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-지원">📞 지원<a href="https://wo123kr.github.io/thinkingdata-docs/blog/welcome#-%EC%A7%80%EC%9B%90" class="hash-link" aria-label="📞 지원에 대한 직접 링크" title="📞 지원에 대한 직접 링크">​</a></h2>
+<ul>
+<li><strong>문서</strong>: 이 사이트의 가이드와 API 참조를 확인하세요</li>
+<li><strong>GitHub</strong>: <a href="https://github.com/wo123kr/thinkingdata-docs/issues" target="_blank" rel="noopener noreferrer">Issues</a>에서 버그 리포트 및 기능 요청</li>
+<li><strong>커뮤니티</strong>: <a href="https://discord.gg/thinkingdata" target="_blank" rel="noopener noreferrer">Discord</a>에서 다른 개발자들과 소통</li>
+</ul>
+<hr>
+<p><strong>ThinkingData 팀</strong>이 함께 만들어가는 더 나은 데이터 분석 플랫폼을 기대해주세요! 🎉</p>]]></content>
+        <category label="welcome" term="welcome"/>
+        <category label="introduction" term="introduction"/>
+    </entry>
+</feed>

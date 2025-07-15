@@ -1,0 +1,27 @@
+{
+  "id": "api/sdk",
+  "title": "SDK 가이드",
+  "description": "ThinkingData SDK를 사용하여 다양한 프로그래밍 언어에서 데이터를 전송하는 방법을 안내합니다.",
+  "source": "@site/docs/api/sdk.md",
+  "sourceDirName": "api",
+  "slug": "/api/sdk",
+  "permalink": "/thinkingdata-docs/docs/api/sdk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs/api/sdk.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API 참조",
+    "permalink": "/thinkingdata-docs/docs/api/reference"
+  },
+  "next": {
+    "title": "설치 가이드",
+    "permalink": "/thinkingdata-docs/docs/guides/installation"
+  }
+}

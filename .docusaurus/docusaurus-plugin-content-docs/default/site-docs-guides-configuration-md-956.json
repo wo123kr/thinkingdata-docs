@@ -5,10 +5,10 @@
   "source": "@site/docs/guides/configuration.md",
   "sourceDirName": "guides",
   "slug": "/guides/configuration",
-  "permalink": "/docs/guides/configuration",
+  "permalink": "/thinkingdata-docs/docs/guides/configuration",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/docs/guides/configuration.md",
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/docs/guides/configuration.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,6 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "설치 가이드",
-    "permalink": "/docs/guides/installation"
+    "permalink": "/thinkingdata-docs/docs/guides/installation"
+  },
+  "next": {
+    "title": "데이터 모델링",
+    "permalink": "/thinkingdata-docs/docs/guides/data-modeling"
   }
 }

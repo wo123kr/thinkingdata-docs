@@ -1,38 +1,58 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/thinkingdata-docs/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/thinkingdata-docs/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "api/reference",
-              "path": "/docs/api/reference",
+              "path": "/thinkingdata-docs/docs/api/reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/sdk",
+              "path": "/thinkingdata-docs/docs/api/sdk",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started",
-              "path": "/docs/getting-started",
+              "path": "/thinkingdata-docs/docs/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/configuration",
-              "path": "/docs/guides/configuration",
+              "path": "/thinkingdata-docs/docs/guides/configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/data-modeling",
+              "path": "/thinkingdata-docs/docs/guides/data-modeling",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "guides/installation",
-              "path": "/docs/guides/installation",
+              "path": "/thinkingdata-docs/docs/guides/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/performance",
+              "path": "/thinkingdata-docs/docs/guides/performance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/security",
+              "path": "/thinkingdata-docs/docs/guides/security",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/thinkingdata-docs/docs/intro",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -40,7 +60,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/thinkingdata-docs/docs/intro",
                 "label": "intro"
               }
             }

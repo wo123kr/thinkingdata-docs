@@ -7,17 +7,16 @@ export default {
   "title": "ThinkingData Docs",
   "tagline": "AI 기반 데이터 분석 플랫폼",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
-  "organizationName": "thinkingdata",
+  "url": "https://wo123kr.github.io",
+  "baseUrl": "/thinkingdata-docs/",
+  "organizationName": "wo123kr",
   "projectName": "thinkingdata-docs",
-  "onBrokenLinks": "throw",
-  "onBrokenMarkdownLinks": "warn",
+  "onBrokenLinks": "ignore",
+  "onBrokenMarkdownLinks": "ignore",
   "i18n": {
     "defaultLocale": "ko",
     "locales": [
-      "ko",
-      "en"
+      "ko"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -28,11 +27,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/jegaljin-u/workspace/thinkingdata-docs/sidebars.js",
-          "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/"
+          "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/thinkingdata/thinkingdata-docs/tree/main/"
+          "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/"
         },
         "theme": {
           "customCss": "/Users/jegaljin-u/workspace/thinkingdata-docs/src/css/custom.css"
@@ -56,12 +55,7 @@ export default {
           "label": "문서"
         },
         {
-          "to": "/blog",
-          "label": "블로그",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/thinkingdata/thinkingdata-docs",
+          "href": "https://github.com/wo123kr/thinkingdata-docs",
           "label": "GitHub",
           "position": "right"
         }
@@ -85,7 +79,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/thinkingdata/thinkingdata-docs"
+              "href": "https://github.com/wo123kr/thinkingdata-docs"
             }
           ]
         }

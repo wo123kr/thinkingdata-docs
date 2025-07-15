@@ -1,4 +1,5 @@
 import React from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import { HiOutlineDocumentText, HiOutlineAcademicCap } from 'react-icons/hi2';
 import styles from './SubNav.module.css';
 
@@ -19,7 +20,7 @@ export default function SubNav() {
   return (
     <nav className={styles.subnav}>
       {tabs.map(tab => (
-        <a key={tab.label} href={tab.href} className={styles.tab}>
+        <a key={tab.label} href={useBaseUrl(tab.href)} className={styles.tab}>
           {tab.icon}
           <span>{tab.label}</span>
         </a>

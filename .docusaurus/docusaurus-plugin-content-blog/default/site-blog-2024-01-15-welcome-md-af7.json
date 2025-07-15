@@ -1,0 +1,31 @@
+{
+  "permalink": "/thinkingdata-docs/blog/welcome",
+  "editUrl": "https://github.com/wo123kr/thinkingdata-docs/tree/main/blog/2024-01-15-welcome.md",
+  "source": "@site/blog/2024-01-15-welcome.md",
+  "title": "ThinkingData 문서에 오신 것을 환영합니다",
+  "description": "안녕하세요! ThinkingData 플랫폼의 공식 문서 사이트에 오신 것을 환영합니다.",
+  "date": "2024-01-15T00:00:00.000Z",
+  "formattedDate": "2024년 1월 15일",
+  "tags": [
+    {
+      "label": "welcome",
+      "permalink": "/thinkingdata-docs/blog/tags/welcome"
+    },
+    {
+      "label": "introduction",
+      "permalink": "/thinkingdata-docs/blog/tags/introduction"
+    }
+  ],
+  "readingTime": 2.535,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "ThinkingData 문서에 오신 것을 환영합니다",
+    "tags": [
+      "welcome",
+      "introduction"
+    ]
+  },
+  "unlisted": false
+}
