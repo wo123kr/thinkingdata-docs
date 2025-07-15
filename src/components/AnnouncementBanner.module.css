@@ -4,9 +4,7 @@
   color: #00796b;
   padding: 12px 0;
   text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: relative;
   z-index: 2000;
   font-size: 1rem;
   font-weight: 500;

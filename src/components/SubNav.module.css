@@ -2,14 +2,14 @@
   display: flex;
   align-items: center;
   gap: 24px;
-  background: #f5f7fa;
-  border-bottom: 1px solid #e0e0e0;
+  background: var(--ifm-color-emphasis-100);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
   padding: 0 32px;
   height: 44px;
   z-index: 1000;
 }
 .tab {
-  color: #1976d2;
+  color: var(--ifm-navbar-link-color);
   font-weight: 500;
   font-size: 1rem;
   text-decoration: none;
@@ -18,6 +18,6 @@
   transition: border 0.2s, color 0.2s;
 }
 .tab:hover, .tab.active {
-  color: #0d47a1;
-  border-bottom: 2px solid #1976d2;
+  color: var(--ifm-color-primary);
+  border-bottom: 2px solid var(--ifm-color-primary);
 } 

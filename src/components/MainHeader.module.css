@@ -4,8 +4,8 @@
   justify-content: space-between;
   padding: 0 32px;
   height: 64px;
-  background: #fff;
-  border-bottom: 1px solid #e0e0e0;
+  background: var(--ifm-navbar-background-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
   position: relative;
   z-index: 1001;
 }
@@ -15,7 +15,7 @@
   gap: 12px;
   font-size: 1.3rem;
   font-weight: 700;
-  color: #1976d2;
+  color: var(--ifm-navbar-link-color);
 }
 .searchAiWrap {
   display: flex;
@@ -24,10 +24,12 @@
 }
 .search {
   padding: 8px 16px;
-  border: 1px solid #bdbdbd;
+  border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: 6px;
   font-size: 1rem;
   width: 260px;
+  background: var(--ifm-color-emphasis-0);
+  color: var(--ifm-color-content);
 }
 .nav {
   display: flex;
@@ -35,8 +37,20 @@
   gap: 18px;
 }
 .nav a {
-  color: #1976d2;
+  color: var(--ifm-navbar-link-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
+}
+.themeToggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.themeToggle:hover {
+  background: var(--ifm-color-emphasis-200);
 } 
