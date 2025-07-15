@@ -1,0 +1,20 @@
+.aiBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: #e3f2fd;
+  color: #1976d2;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.aiBtn:hover {
+  background: #bbdefb;
+}
+.aiBtn svg {
+  display: block;
+} 
