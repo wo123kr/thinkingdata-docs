@@ -15,10 +15,10 @@ const SUGGESTED_QUESTIONS = [
   "API 키는 어디서 발급받나요?",
   "대용량 데이터 처리를 위한 최적화 방법은?",
   "배치 처리로 여러 이벤트를 한번에 보내는 방법은?",
-  "데이터 모델링 시 주의사항은 무엇인가요?",
-  "REST API 엔드포인트 목록을 알려주세요",
-  "보안을 위한 권장사항은 무엇인가요?",
-  "성능 최적화를 위한 팁을 알려주세요"
+  "데이터 수집 시 개인정보 보호는 어떻게 하나요?",
+  "실시간 분석을 위한 설정 방법은?",
+  "A/B 테스트 데이터는 어떻게 추적하나요?",
+  "커스텀 이벤트 속성을 정의하는 방법은?"
 ];
 
 function highlightText(text, query) {
@@ -31,7 +31,7 @@ export default function MainHeader() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [showDropdown, setShowDropdown] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(-1);
+  const [selectedIndex, setSelectedIndex] = useState(0);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [aiPanelOpen, setAiPanelOpen] = useState(false);
   const [aiQuery, setAiQuery] = useState('');
@@ -164,8 +164,11 @@ export default function MainHeader() {
     <>
       <header className={styles.header}>
         <div className={styles.logo}>
-          <span>🔗</span>
-          <span>ThinkingData Docs</span>
+          <img 
+            src={useBaseUrl('/img/thinkingdata-logo.svg')} 
+            alt="ThinkingData" 
+            style={{ height: '32px', width: 'auto' }}
+          />
         </div>
         
         <div className={styles.searchAiWrap} style={{ position: 'relative' }}>

@@ -14,8 +14,10 @@ export default function DocItemLayoutWrapper(props) {
 
   return (
     <>
-      <DocItemLayout {...props} />
-      <AskButton onAskAssistant={handleAskAssistant} />
+      <div style={{ position: 'relative' }}>
+        <DocItemLayout {...props} />
+        <AskButton onAskAssistant={handleAskAssistant} />
+      </div>
       <AiAssistantPanel
         isOpen={aiPanelOpen}
         onClose={() => setAiPanelOpen(false)}

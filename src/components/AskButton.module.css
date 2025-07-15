@@ -1,81 +1,114 @@
 .askButtonContainer {
-  position: fixed;
-  top: 24px;
-  right: 24px;
-  z-index: 1000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
 }
 
 .askButtonGroup {
   display: flex;
-  background: var(--ifm-color-primary);
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  font-size: 14px;
+}
+
+[data-theme='dark'] .askButtonGroup {
+  background: #374151;
+  border-color: #4b5563;
 }
 
 .askButton {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 12px 16px;
+  gap: 6px;
+  padding: 8px 12px;
   background: transparent;
   border: none;
-  color: white;
-  font-weight: 600;
-  font-size: 0.9rem;
+  color: #6b7280;
+  font-weight: 500;
+  font-size: 14px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: all 0.15s ease;
+}
+
+[data-theme='dark'] .askButton {
+  color: #d1d5db;
 }
 
 .askButton:hover {
-  background: rgba(255, 255, 255, 0.1);
+  color: #374151;
+  background: #f9fafb;
+}
+
+[data-theme='dark'] .askButton:hover {
+  color: #f9fafb;
+  background: #4b5563;
 }
 
 .askIcon {
-  font-size: 1.1rem;
+  font-size: 16px;
 }
 
 .dropdownArrow {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
+  width: 28px;
   background: transparent;
   border: none;
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
-  color: white;
+  border-left: 1px solid #e5e7eb;
+  color: #6b7280;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: all 0.15s ease;
+  font-size: 12px;
+}
+
+[data-theme='dark'] .dropdownArrow {
+  border-left-color: #4b5563;
+  color: #d1d5db;
 }
 
 .dropdownArrow:hover {
-  background: rgba(255, 255, 255, 0.1);
+  color: #374151;
+  background: #f9fafb;
+}
+
+[data-theme='dark'] .dropdownArrow:hover {
+  color: #f9fafb;
+  background: #4b5563;
 }
 
 .dropdownArrow span {
-  font-size: 0.7rem;
   transform: rotate(0deg);
-  transition: transform 0.2s ease;
+  transition: transform 0.15s ease;
 }
 
 .dropdown {
   position: absolute;
   top: 100%;
   right: 0;
-  margin-top: 8px;
+  margin-top: 4px;
   min-width: 280px;
-  background: var(--ifm-background-color);
-  border: 1px solid var(--ifm-color-emphasis-200);
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
   border-radius: 8px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   overflow: hidden;
-  animation: dropdownSlideDown 0.2s ease;
+  animation: dropdownSlideDown 0.15s ease;
+}
+
+[data-theme='dark'] .dropdown {
+  background: #374151;
+  border-color: #4b5563;
 }
 
 @keyframes dropdownSlideDown {
   from {
     opacity: 0;
-    transform: translateY(-8px);
+    transform: translateY(-4px);
   }
   to {
     opacity: 1;
@@ -89,8 +122,12 @@
   gap: 12px;
   padding: 12px 16px;
   cursor: pointer;
-  border-bottom: 1px solid var(--ifm-color-emphasis-100);
-  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #f3f4f6;
+  transition: background-color 0.15s ease;
+}
+
+[data-theme='dark'] .dropdownItem {
+  border-bottom-color: #4b5563;
 }
 
 .dropdownItem:last-child {
@@ -98,43 +135,66 @@
 }
 
 .dropdownItem:hover {
-  background: var(--ifm-color-emphasis-100);
+  background: #f9fafb;
+}
+
+[data-theme='dark'] .dropdownItem:hover {
+  background: #4b5563;
 }
 
 .itemIcon {
-  font-size: 1.2rem;
-  margin-top: 2px;
+  font-size: 16px;
+  margin-top: 1px;
   flex-shrink: 0;
+  opacity: 0.8;
 }
 
 .itemTitle {
-  font-weight: 600;
-  color: var(--ifm-color-content);
-  font-size: 0.9rem;
+  font-weight: 500;
+  color: #111827;
+  font-size: 14px;
   margin-bottom: 2px;
+  line-height: 1.3;
+}
+
+[data-theme='dark'] .itemTitle {
+  color: #f9fafb;
 }
 
 .itemDesc {
-  font-size: 0.8rem;
-  color: var(--ifm-color-content-secondary);
-  line-height: 1.3;
+  font-size: 12px;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+[data-theme='dark'] .itemDesc {
+  color: #d1d5db;
 }
 
 /* 모바일 대응 */
 @media (max-width: 768px) {
   .askButtonContainer {
-    top: 16px;
-    right: 16px;
+    top: 8px;
+    right: 8px;
   }
   
   .askButton {
-    padding: 10px 14px;
-    font-size: 0.85rem;
+    padding: 6px 10px;
+    font-size: 13px;
+    gap: 4px;
+  }
+  
+  .askIcon {
+    font-size: 14px;
+  }
+  
+  .dropdownArrow {
+    width: 24px;
   }
   
   .dropdown {
-    min-width: 260px;
-    right: -40px; /* 화면 밖으로 나가지 않도록 조정 */
+    min-width: 250px;
+    right: -20px;
   }
   
   .dropdownItem {
@@ -142,10 +202,10 @@
   }
   
   .itemTitle {
-    font-size: 0.85rem;
+    font-size: 13px;
   }
   
   .itemDesc {
-    font-size: 0.75rem;
+    font-size: 11px;
   }
 } 
