@@ -1,80 +1,5 @@
 {
   "docusaurus-plugin-content-docs": {
-    "docs2": {
-      "path": "/thinkingdata-docs/docs2",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/thinkingdata-docs/docs2",
-          "mainDocId": "intro",
-          "docs": [
-            {
-              "id": "api/reference",
-              "path": "/thinkingdata-docs/docs2/api/reference",
-              "sidebar": "docs2Sidebar"
-            },
-            {
-              "id": "api/sdk",
-              "path": "/thinkingdata-docs/docs2/api/sdk",
-              "sidebar": "docs2Sidebar"
-            },
-            {
-              "id": "getting-started",
-              "path": "/thinkingdata-docs/docs2/getting-started",
-              "sidebar": "docs2Sidebar"
-            },
-            {
-              "id": "guides/configuration",
-              "path": "/thinkingdata-docs/docs2/guides/configuration",
-              "sidebar": "docs2Sidebar"
-            },
-            {
-              "id": "guides/data-modeling",
-              "path": "/thinkingdata-docs/docs2/guides/data-modeling",
-              "sidebar": "docs2Sidebar"
-            },
-            {
-              "id": "guides/installation",
-              "path": "/thinkingdata-docs/docs2/guides/installation",
-              "sidebar": "docs2Sidebar"
-            },
-            {
-              "id": "guides/performance",
-              "path": "/thinkingdata-docs/docs2/guides/performance",
-              "sidebar": "docs2Sidebar"
-            },
-            {
-              "id": "guides/security",
-              "path": "/thinkingdata-docs/docs2/guides/security",
-              "sidebar": "docs2Sidebar"
-            },
-            {
-              "id": "intro",
-              "path": "/thinkingdata-docs/docs2/intro",
-              "sidebar": "docs2Sidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/thinkingdata-docs/docs2/intro",
-                "label": "intro"
-              }
-            },
-            "docs2Sidebar": {
-              "link": {
-                "path": "/thinkingdata-docs/docs2/intro",
-                "label": "intro"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
     "default": {
       "path": "/thinkingdata-docs/docs",
       "versions": [
@@ -142,6 +67,81 @@
             "docs2Sidebar": {
               "link": {
                 "path": "/thinkingdata-docs/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "docs2": {
+      "path": "/thinkingdata-docs/docs2",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/thinkingdata-docs/docs2",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "api/reference",
+              "path": "/thinkingdata-docs/docs2/api/reference",
+              "sidebar": "docs2Sidebar"
+            },
+            {
+              "id": "api/sdk",
+              "path": "/thinkingdata-docs/docs2/api/sdk",
+              "sidebar": "docs2Sidebar"
+            },
+            {
+              "id": "getting-started",
+              "path": "/thinkingdata-docs/docs2/getting-started",
+              "sidebar": "docs2Sidebar"
+            },
+            {
+              "id": "guides/configuration",
+              "path": "/thinkingdata-docs/docs2/guides/configuration",
+              "sidebar": "docs2Sidebar"
+            },
+            {
+              "id": "guides/data-modeling",
+              "path": "/thinkingdata-docs/docs2/guides/data-modeling",
+              "sidebar": "docs2Sidebar"
+            },
+            {
+              "id": "guides/installation",
+              "path": "/thinkingdata-docs/docs2/guides/installation",
+              "sidebar": "docs2Sidebar"
+            },
+            {
+              "id": "guides/performance",
+              "path": "/thinkingdata-docs/docs2/guides/performance",
+              "sidebar": "docs2Sidebar"
+            },
+            {
+              "id": "guides/security",
+              "path": "/thinkingdata-docs/docs2/guides/security",
+              "sidebar": "docs2Sidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/thinkingdata-docs/docs2/intro",
+              "sidebar": "docs2Sidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/thinkingdata-docs/docs2/intro",
+                "label": "intro"
+              }
+            },
+            "docs2Sidebar": {
+              "link": {
+                "path": "/thinkingdata-docs/docs2/intro",
                 "label": "intro"
               }
             }
