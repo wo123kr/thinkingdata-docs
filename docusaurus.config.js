@@ -21,15 +21,15 @@ const config = {
   organizationName: 'thinkingdata', // Usually your GitHub org/user name.
   projectName: 'thinkingdata-docs', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'ko',
-    locales: ['ko', 'en'],
+    locales: ['ko'],
   },
 
   presets: [
@@ -76,7 +76,6 @@ const config = {
             position: 'left',
             label: '문서',
           },
-          {to: '/blog', label: '블로그', position: 'left'},
           {
             href: 'https://github.com/thinkingdata/thinkingdata-docs',
             label: 'GitHub',
